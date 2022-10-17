@@ -1,0 +1,45 @@
+*{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 8vh;
+    color: aliceblue;
+}
+.main{
+    background: url("background2.jpg");
+    background-size: cover;
+    min-height: 55vh;
+}
+.main a{
+    width: 20%;
+    height: 20%;
+}
+.main a img{
+    width: 15%;
+    height: 15%;
+    margin: 4px;
+    padding: 5px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+.main a img:hover{
+    scale: 104%;
+}
+@media screen and (max-width: 800px) {
+    .main a img{
+      width: 25%;
+      height: 25%;
+      margin: 4px;
+      padding: 10px;
+    }
+    .main{
+        min-height: 73vh;
+    }
+  }
